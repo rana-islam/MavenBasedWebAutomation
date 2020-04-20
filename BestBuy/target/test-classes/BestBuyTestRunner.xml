@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BestBuy Test Automation Script" parallel="false">
+
+    <test name="BestBuy Home">
+        <classes>
+            <!--<class name="search.TestBestBuyTitle" />-->
+            <class name="search.TestSearch" />
+        </classes>
+    </test>
+</suite>
