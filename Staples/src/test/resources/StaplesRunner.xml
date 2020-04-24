@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Staples Test Automation Script" parallel="false">
+
+    <parameter name="url" value="https://www.staples.com/"/>
+
+    <test name="Staples Practice Home">
+
+        <classes>
+            <class name="data.StaplesStore"/>
+        </classes>
+    </test>
+
+</suite>

@@ -10,6 +10,7 @@ import java.util.List;
 
 public class TestSearch extends BestBuyHomePage
 {
+
     @Test
     public void testTypingOnSearchBox() throws InterruptedException
     {

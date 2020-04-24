@@ -9,6 +9,7 @@
         <module name="Apple" />
         <module name="BestBuy" />
         <module name="Generic" />
+        <module name="Staples" />
       </profile>
     </annotationProcessing>
   </component>

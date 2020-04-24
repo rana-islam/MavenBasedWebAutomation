@@ -12,6 +12,8 @@
         <module>Generic</module>
         <module>BestBuy</module>
         <module>Apple</module>
+        <module>Target</module>
+        <module>Staples</module>
     </modules>
 
     <dependencyManagement>

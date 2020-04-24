@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Target Test Automation Script" parallel="false">
+    
+    <parameter name="url" value="https://www.target.com/"/>
+
+    <test name="Target Practice Home">
+
+        <classes>
+            <class name="data.TargetStoreData"/>
+        </classes>
+    </test>
+
+</suite>
